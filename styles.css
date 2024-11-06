@@ -29,7 +29,7 @@ h2 {
 .music, .videos, .recommendations {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.px;
+    gap: 20px;
 }
 .music a, .recommendations a {
     text-decoration: none;
