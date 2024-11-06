@@ -38,7 +38,7 @@ h2 {
     text-align: center;
 }
 .video iframe {
-    width: 100%;
+    width: 50%;
     height: 250px;
     border: none;
     border-radius: 10px;
