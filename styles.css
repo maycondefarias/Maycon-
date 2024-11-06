@@ -1,1 +1,101 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #4CAF50;
+}
+
+#foto img {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#musicas img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+#musicas ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#musicas ul li {
+    margin-right: 20px;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
