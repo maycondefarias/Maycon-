@@ -1,100 +1,130 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página de Apresentação</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Apresentação - ChatGPT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #004080;
+        }
+        .music-links img {
+            width: 100px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .video-embed {
+            margin: 10px 0;
+        }
+        .recommendations {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .recommendations div {
+            flex: 1 1 45%;
+            background: #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <h1>Bem-vindo à Minha Página de Apresentação!</h1>
-    </header>
 
-    <!-- Descrição Pessoal -->
-    <section id="sobre">
-        <h2>Quem Sou Eu?</h2>
-        <p>Olá, sou [Seu Nome], um entusiasta da tecnologia e do aprendizado contínuo. Sou apaixonado por programação, música e sempre estou em busca de novos desafios para aprimorar minhas habilidades. Além disso, adoro compartilhar conhecimentos com outras pessoas.</p>
-    </section>
+<header>
+    <h1>Bem-vindo(a) à minha página de apresentação!</h1>
+</header>
 
-    <!-- Foto -->
-    <section id="foto">
-        <h2>Minha Foto</h2>
-        <img src="sua_foto.jpg" alt="Minha Foto" width="300">
-    </section>
+<section>
+    <h2>Sobre mim</h2>
+    <p>Olá! Sou o ChatGPT, um modelo de linguagem desenvolvido pela OpenAI. Fui criado para ajudar pessoas a entender, criar e compartilhar informações sobre diversos tópicos. Adoro ajudar com conhecimento e criatividade, proporcionando respostas úteis e adaptadas para cada pessoa que me consulta.</p>
+    <img src="minha-foto.jpg" alt="Minha Foto" style="width: 200px; border-radius: 50%; display: block; margin: 10px auto;">
+</section>
 
-    <!-- Música que você gosta -->
-    <section id="musica">
-        <h2>Minhas Músicas Preferidas</h2>
-        <p>Aqui estão algumas das músicas que mais gosto:</p>
-        <ul>
-            <li>
-                <a href="https://www.youtube.com/watch?v=video_id1" target="_blank">
-                    <img src="imagem_musica1.jpg" alt="Música 1">
-                    Música 1 - Artista
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=video_id2" target="_blank">
-                    <img src="imagem_musica2.jpg" alt="Música 2">
-                    Música 2 - Artista
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=video_id3" target="_blank">
-                    <img src="imagem_musica3.jpg" alt="Música 3">
-                    Música 3 - Artista
-                </a>
-            </li>
-        </ul>
-    </section>
+<section>
+    <h2>Músicas que eu gosto</h2>
+    <div class="music-links">
+        <a href="https://www.youtube.com/watch?v=V7fFInPm6Jw" target="_blank">
+            <img src="https://img.youtube.com/vi/V7fFInPm6Jw/0.jpg" alt="Música 1"> Música 1 - Exemplo
+        </a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Música 2"> Música 2 - Exemplo
+        </a>
+        <a href="https://www.youtube.com/watch?v=3JZ_D3ELwOQ" target="_blank">
+            <img src="https://img.youtube.com/vi/3JZ_D3ELwOQ/0.jpg" alt="Música 3"> Música 3 - Exemplo
+        </a>
+    </div>
+</section>
 
-    <!-- Vídeos que você gosta -->
-    <section id="videos">
-        <h2>Meus Vídeos Favoritos</h2>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_id1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section>
+    <h2>Vídeos que eu gosto</h2>
+    <div class="video-embed">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/V7fFInPm6Jw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-embed">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-embed">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Recomendações de Sites para Estudo</h2>
+    <div class="recommendations">
+        <div>
+            <h3>Coursera</h3>
+            <p>Uma plataforma que oferece cursos de diversas áreas do conhecimento, sendo ideal para quem deseja aprender novas habilidades e obter certificados reconhecidos.</p>
         </div>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_id2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+            <h3>edX</h3>
+            <p>Oferece cursos gratuitos de universidades renomadas ao redor do mundo, como MIT e Harvard, abrangendo diversas disciplinas.</p>
         </div>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_id3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+            <h3>Khan Academy</h3>
+            <p>Uma excelente plataforma para aprender disciplinas escolares e de ensino superior de forma gratuita, especialmente matemática e ciências.</p>
         </div>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_id4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_id5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Sites para Estudo -->
-    <section id="sites-estudo">
-        <h2>Sites Recomendados para Estudo</h2>
-        <ul>
-            <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a> - Plataforma de aprendizado gratuita sobre diversos tópicos.</li>
-            <li><a href="https://www.coursera.org" target="_blank">Coursera</a> - Cursos online oferecidos por universidades renomadas.</li>
-            <li><a href="https://www.edx.org" target="_blank">edX</a> - Cursos de alta qualidade em diversas áreas do conhecimento.</li>
-        </ul>
-    </section>
+<section>
+    <h2>Recomendações de Sites que Utilizo</h2>
+    <div class="recommendations">
+        <div>
+            <h3>Stack Overflow</h3>
+            <p>Ótimo para resolver dúvidas de programação, onde desenvolvedores do mundo inteiro compartilham soluções para problemas comuns.</p>
+        </div>
+        <div>
+            <h3>OpenAI</h3>
+            <p>Fonte de aprendizado sobre inteligência artificial e onde eu fui desenvolvido! Possui publicações e pesquisas avançadas no campo da IA.</p>
+        </div>
+    </div>
+</section>
 
-    <!-- Sites que eu utilizo -->
-    <section id="sites-uteis">
-        <h2>Sites que Eu Uso</h2>
-        <ul>
-            <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a> - Utilizo para resolver problemas de programação e aprender mais sobre desenvolvimento.</li>
-            <li><a href="https://www.github.com" target="_blank">GitHub</a> - Plataforma essencial para gerenciar meus projetos e colaborar com a comunidade de desenvolvedores.</li>
-            <li><a href="https://www.medium.com" target="_blank">Medium</a> - Leio artigos e tutoriais sobre tecnologia e tendências de mercado.</li>
-        </ul>
-    </section>
+<footer>
+    <p>Obrigado pela visita! Um agradecimento especial ao professor Hugo pela orientação e inspiração para este projeto.</p>
+</footer>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>Obrigado por visitar minha página! Agradeço ao Professor Hugo pela orientação durante a criação deste projeto.</p>
-    </footer>
 </body>
 </html>
-

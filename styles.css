@@ -1,75 +1,43 @@
-/* Resetando margens e preenchimento padrões */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Definindo fontes e fundo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
-
-/* Cabeçalho */
-header {
-    background-color: #2C3E50;
+header, footer {
+    background-color: #004080;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 1em;
 }
-
-header h1 {
-    font-size: 2.5em;
-}
-
-/* Seção sobre mim */
-#descricao {
-    background-color: white;
-    margin: 20px;
+section {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background: white;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
-#descricao img {
-    max-width: 300px;
-    display: block;
-    margin-top: 20px;
+h1, h2 {
+    color: #004080;
 }
-
-/* Estilizando listas de músicas e vídeos */
-ul {
-    list-style-type: none;
+.music-links img {
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
-
-ul li {
+.video-embed {
     margin: 10px 0;
 }
-
-ul li a {
-    text-decoration: none;
-    color: #3498db;
-    font-size: 1.1em;
+.recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-
-ul li a:hover {
-    color: #2980b9;
+.recommendations div {
+    flex: 1 1 45%;
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
 }
-
-.video {
-    margin: 10px 0;
-}
-
-/* Estilo para o rodapé */
-footer {
-    background-color: #2C3E50;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    wid
-
-
-
