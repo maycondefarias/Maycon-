@@ -1,84 +1,75 @@
-
-
-body {
-    font-family: Arial, sans-serif;
+/* Resetando margens e preenchimento padrões */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    box-sizing: border-box;
 }
 
+/* Definindo fontes e fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
 header {
-    background-color: #010c02;
+    background-color: #2C3E50;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
-h1 {
-    margin: 0;
+header h1 {
+    font-size: 2.5em;
 }
 
-h2 {
-    color: #4CAF50;
-}
-
-section {
-    padding: 20px;
-    margin: 10px;
+/* Seção sobre mim */
+#descricao {
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.foto-perfil {
-    width: 200px;
-    border-radius: 50%;
+#descricao img {
+    max-width: 300px;
     display: block;
-    margin: 20px auto;
+    margin-top: 20px;
 }
 
-#musicas ul {
+/* Estilizando listas de músicas e vídeos */
+ul {
     list-style-type: none;
-    padding: 0;
 }
 
-#musicas ul li {
+ul li {
     margin: 10px 0;
 }
 
-#musicas a {
-    text-decoration: none;
-    color: #4CAF50;
-    font-size: 18px;
-}
-
-#musicas img {
-    width: 30px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-.video {
-    margin: 20px 0;
-    text-align: center;
-}
-
 ul li a {
-    color: #333;
     text-decoration: none;
+    color: #3498db;
+    font-size: 1.1em;
 }
 
 ul li a:hover {
-    color: #4CAF50;
+    color: #2980b9;
 }
 
+.video {
+    margin: 10px 0;
+}
+
+/* Estilo para o rodapé */
 footer {
-    background-color: #333;
+    background-color: #2C3E50;
     color: white;
     text-align: center;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
+    padding: 10px 0;
+    position: fixed;
+    wid
+
+
+
