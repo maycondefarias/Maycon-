@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    color:#ff7f7f00;
+    color:aquamarine;
     background-color: black  
 
 }
@@ -49,4 +49,25 @@ h1, h2 {
     height: 50px;
     margin-right: 10px;
     vertical-align: middle;
+}
+.video-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video-conteiner iframe{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+footer {
+    background: #211f1f;
+    color: hsl(222, 57%, 74%);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100px;
 }
